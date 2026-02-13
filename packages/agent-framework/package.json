@@ -1,0 +1,20 @@
+{
+  "name": "@ai-toolkit/agent-framework",
+  "version": "0.1.0",
+  "description": "Production-ready AI agent starter with OpenAI",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "openai": "^5.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}

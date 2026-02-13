@@ -1,0 +1,15 @@
+{
+  "name": "ai-developer-toolkit",
+  "version": "1.0.0",
+  "description": "🤖 AI Developer Toolkit - Open-source AI tools built with OpenAI APIs",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Run individual package scripts'"
+  },
+  "keywords": ["openai", "ai", "gpt", "agent", "rag", "developer-tools"],
+  "author": "yksanjo",
+  "license": "MIT"
+}
